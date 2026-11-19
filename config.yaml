@@ -1,0 +1,11 @@
+data_path: data/raw/maternal_health_risk.csv
+model_path: models/risk_model.joblib
+reports_dir: reports
+
+seed: 42
+test_fraction: 0.2
+
+# 5 folds x 5 repeats: with ~360 training rows a single 5-fold run moves
+# by a couple of F1 points depending on the shuffle.
+cv_folds: 5
+cv_repeats: 5

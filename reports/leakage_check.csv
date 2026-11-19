@@ -1,0 +1,4 @@
+protocol,rows,f1_macro_mean,f1_macro_std,accuracy_mean,accuracy_std,recall_high_mean,recall_high_std
+"raw file, random folds",1014,0.8477,0.0270,0.8434,0.0280,0.8970,0.0432
+"deduplicated, grouped folds",451,0.6252,0.0430,0.7029,0.0302,0.7858,0.0689
+"deduplicated, conflicts removed",380,0.6998,0.0513,0.7753,0.0355,0.8219,0.0899
